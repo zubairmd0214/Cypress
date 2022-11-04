@@ -1,0 +1,420 @@
+{
+  "body": {
+    "body": [
+      {
+        "FOCUS": {
+          "measure": {
+            "measureName": "Cognitive Alignment Score",
+            "measureType": "Score",
+            "measureValue": 60,
+            "helpText": "From a neuroscience perspective, cognitive dissonullce describes the mental discomfort faced by individuals as a result of holding two conflicting beliefs, values, or attitudes. We are naturally wired to seek consistency in our beliefs and actions. This inconsistency between what people believe and how they behave motivates people to engage in actions that will help minimize feelings of discomfort."
+          },
+          "finding": {
+            "findingValue": "Neutral"
+          },
+          "impact": {
+            "impactText": [
+              "Lower Cognitive Alignment scores affect day to day choices and prioritisation of tasks by your team. When coupled with incorrect beliefs of behaviours needed to perform their role in the company's unique Growth Context we end up with teams that are less effective in executing the defined strategy."
+            ]
+          },
+          "sourceMeasure": [
+            {
+              "measure": {
+                "measureName": "Growth Context",
+                "measureType": "Derived Measure",
+                "measureValue": 62,
+                "helpText": "Growth Context captures the macro environment in which your company is competing to grow, and the relative importance of the macro-environment attributes. The Growth Context is described by the Leader. An individual's perception of Growth Context affects the way they think, act, and feel on a day to day basis at work."
+              },
+              "finding": {
+                "findingValue": "Neutral"
+              },
+              "impact": {
+                "impactText": [
+                  "Low Growth Context scores can lead teams to lack focus when selecting tasks to execute, lack of urgency in matters that demand it, and importantly develop behaviours that are inconsistent with what is required for your strategic direction."
+                ]
+              }
+            },
+            {
+              "measure": {
+                "measureName": "Growth Behaviour",
+                "measureType": "Derived Measure",
+                "measureValue": 58,
+                "helpText": "Growth Behaviour captures the whether your team understands of the behaviours required by them to succeed in the Growth Context defined by the company."
+              },
+              "finding": {
+                "findingValue": "Neutral"
+              },
+              "impact": {
+                "impactText": [
+                  "Low Growth Behaviour scores can lead to situations where your employees may act in a way that is detrimental to the stated growth objectives. This is not because your employees cannot behave in a way consistent with your growth direction. It is a result of them not understanding the expected behaviours."
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "FUN": {
+          "measure": {
+            "measureName": "FUN Score",
+            "measureType": "Score",
+            "measureValue": 54.72,
+            "helpText": "We measure FUN by assessing and comparing the (1) level of the fitment of the seller-doer with the required sales competencies for Prospecting, (2) individual's belief of performance enablers in the workplace (SPICED) against the individual's personality traits. To have fun at work, you must have the right temperament for the job. The work environment must enable you to meet your temperament needs. 13 sales competencies enable sales professionals to deliver sales goals. The extent to which these competencies matter in a role is defined by your Growth Behaviour. These competencies are a key part of 'How you Think' that affects your Will. They are."
+          },
+          "finding": {
+            "findingValue": "Detractor"
+          },
+          "impact": {
+            "impactText": [
+              "Pillar: Fun Score : Detractor"
+            ]
+          },
+          "sourceMeasure": [
+            {
+              "measure": {
+                "measureName": "SPICED Strength Score",
+                "measureType": "Derived Measure",
+                "measureValue": 52.83,
+                "helpText": "Help Text for FUN SPICED Environment Derived Measure SPICED Strength Score is missing"
+              },
+              "finding": {
+                "findingValue": "Detractor"
+              },
+              "impact": {
+                "impactText": [
+                  "Lower SPICED Strength Score can lead to a team which is demotivated and not connected with the organisation due to mismatch in expectations required for a valued"
+                ]
+              }
+            },
+            {
+              "measure": {
+                "measureName": "Role Fitment Strength Score",
+                "measureType": "Derived Measure",
+                "measureValue": 56.6,
+                "helpText": "Help Text for FUN Team Role Fitment Derived Measure Role Fitment Strength Score is missing"
+              },
+              "finding": {
+                "findingValue": "Neutral"
+              },
+              "impact": {
+                "impactText": [
+                  "Pillar: Role Fitment Strength Score : Neutral"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "FUTURE": {
+          "measure": {
+            "measureName": "FUTURE Score",
+            "measureType": "Score",
+            "measureValue": 42,
+            "helpText": "Help Text for FUTURE FLOW Score FUTURE Score is missing"
+          },
+          "finding": {
+            "findingValue": "Detractor"
+          },
+          "impact": {
+            "impactText": [
+              "Pillar: FUTURE Score : Detractor"
+            ]
+          },
+          "sourceMeasure": [
+            {
+              "measure": {
+                "measureName": "Team Persona Score",
+                "measureType": "Derived Measure",
+                "measureValue": 42,
+                "helpText": "Help Text for FUTURE Team Persona Derived Measure Team Persona Score is missing"
+              },
+              "finding": {
+                "findingValue": "Detractor"
+              },
+              "impact": {
+                "impactText": [
+                  "Pillar: Team Persona Score : Detractor"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "FOUNDATION": {
+          "measure": {
+            "measureName": "Foundation Score",
+            "measureType": "Score",
+            "measureValue": 28.9,
+            "helpText": "Help Text for FOUNDATION FLOW Score Foundation Score is missing"
+          },
+          "finding": {
+            "findingValue": "Detractor"
+          },
+          "impact": {
+            "impactText": []
+          },
+          "sourceMeasure": [
+            {
+              "measure": {
+                "measureName": "Capability Score",
+                "measureType": "Derived Measure",
+                "measureValue": 28.9,
+                "helpText": "Help Text for FOUNDATION Sales Capability Derived Measure Capability Score is missing"
+              },
+              "finding": {
+                "findingValue": "Detractor"
+              },
+              "impact": {
+                "impactText": [
+                  "Pillar: Capability Score : Detractor"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "headers": {
+    "date": "Fri, 11 Feb 2022 12:10:19 GMT",
+    "server": "Apache/2.4.48 (IUS) OpenSSL/1.0.2k-fips",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
+    "access-control-expose-headers": "Content-Length",
+    "access-control-allow-headers": "Accept, Authorization, Content-Type, X-Requested-With, Range",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5056",
+    "etag": "W/\"13c0-S2YzHlInuoSYN6QtVbwi5mdF+20\"",
+    "via": "1.1 dev.k4coach.com (Apache/2.4.48)",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36",
+    "accept": "*/*",
+    "authorization": "Basic SzQtYXBpLWRldjpEYXRhVGVhbUAyMDIx",
+    "accept-encoding": "gzip, deflate",
+    "content-type": "application/json",
+    "content-length": 11
+  },
+  "requestBody": "{\"TPPID\":2}",
+  "duration": 341,
+  "allRequestResponses": [
+    {
+      "Request Body": "{\"TPPID\":2}",
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36",
+        "accept": "*/*",
+        "authorization": "Basic SzQtYXBpLWRldjpEYXRhVGVhbUAyMDIx",
+        "accept-encoding": "gzip, deflate",
+        "content-type": "application/json",
+        "content-length": 11
+      },
+      "Request URL": "https://dev.k4coach.com/backend/findingsSummary_v2",
+      "Response Body": {
+        "body": [
+          {
+            "FOCUS": {
+              "measure": {
+                "measureName": "Cognitive Alignment Score",
+                "measureType": "Score",
+                "measureValue": 60,
+                "helpText": "From a neuroscience perspective, cognitive dissonullce describes the mental discomfort faced by individuals as a result of holding two conflicting beliefs, values, or attitudes. We are naturally wired to seek consistency in our beliefs and actions. This inconsistency between what people believe and how they behave motivates people to engage in actions that will help minimize feelings of discomfort."
+              },
+              "finding": {
+                "findingValue": "Neutral"
+              },
+              "impact": {
+                "impactText": [
+                  "Lower Cognitive Alignment scores affect day to day choices and prioritisation of tasks by your team. When coupled with incorrect beliefs of behaviours needed to perform their role in the company's unique Growth Context we end up with teams that are less effective in executing the defined strategy."
+                ]
+              },
+              "sourceMeasure": [
+                {
+                  "measure": {
+                    "measureName": "Growth Context",
+                    "measureType": "Derived Measure",
+                    "measureValue": 62,
+                    "helpText": "Growth Context captures the macro environment in which your company is competing to grow, and the relative importance of the macro-environment attributes. The Growth Context is described by the Leader. An individual's perception of Growth Context affects the way they think, act, and feel on a day to day basis at work."
+                  },
+                  "finding": {
+                    "findingValue": "Neutral"
+                  },
+                  "impact": {
+                    "impactText": [
+                      "Low Growth Context scores can lead teams to lack focus when selecting tasks to execute, lack of urgency in matters that demand it, and importantly develop behaviours that are inconsistent with what is required for your strategic direction."
+                    ]
+                  }
+                },
+                {
+                  "measure": {
+                    "measureName": "Growth Behaviour",
+                    "measureType": "Derived Measure",
+                    "measureValue": 58,
+                    "helpText": "Growth Behaviour captures the whether your team understands of the behaviours required by them to succeed in the Growth Context defined by the company."
+                  },
+                  "finding": {
+                    "findingValue": "Neutral"
+                  },
+                  "impact": {
+                    "impactText": [
+                      "Low Growth Behaviour scores can lead to situations where your employees may act in a way that is detrimental to the stated growth objectives. This is not because your employees cannot behave in a way consistent with your growth direction. It is a result of them not understanding the expected behaviours."
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "FUN": {
+              "measure": {
+                "measureName": "FUN Score",
+                "measureType": "Score",
+                "measureValue": 54.72,
+                "helpText": "We measure FUN by assessing and comparing the (1) level of the fitment of the seller-doer with the required sales competencies for Prospecting, (2) individual's belief of performance enablers in the workplace (SPICED) against the individual's personality traits. To have fun at work, you must have the right temperament for the job. The work environment must enable you to meet your temperament needs. 13 sales competencies enable sales professionals to deliver sales goals. The extent to which these competencies matter in a role is defined by your Growth Behaviour. These competencies are a key part of 'How you Think' that affects your Will. They are."
+              },
+              "finding": {
+                "findingValue": "Detractor"
+              },
+              "impact": {
+                "impactText": [
+                  "Pillar: Fun Score : Detractor"
+                ]
+              },
+              "sourceMeasure": [
+                {
+                  "measure": {
+                    "measureName": "SPICED Strength Score",
+                    "measureType": "Derived Measure",
+                    "measureValue": 52.83,
+                    "helpText": "Help Text for FUN SPICED Environment Derived Measure SPICED Strength Score is missing"
+                  },
+                  "finding": {
+                    "findingValue": "Detractor"
+                  },
+                  "impact": {
+                    "impactText": [
+                      "Lower SPICED Strength Score can lead to a team which is demotivated and not connected with the organisation due to mismatch in expectations required for a valued"
+                    ]
+                  }
+                },
+                {
+                  "measure": {
+                    "measureName": "Role Fitment Strength Score",
+                    "measureType": "Derived Measure",
+                    "measureValue": 56.6,
+                    "helpText": "Help Text for FUN Team Role Fitment Derived Measure Role Fitment Strength Score is missing"
+                  },
+                  "finding": {
+                    "findingValue": "Neutral"
+                  },
+                  "impact": {
+                    "impactText": [
+                      "Pillar: Role Fitment Strength Score : Neutral"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "FUTURE": {
+              "measure": {
+                "measureName": "FUTURE Score",
+                "measureType": "Score",
+                "measureValue": 42,
+                "helpText": "Help Text for FUTURE FLOW Score FUTURE Score is missing"
+              },
+              "finding": {
+                "findingValue": "Detractor"
+              },
+              "impact": {
+                "impactText": [
+                  "Pillar: FUTURE Score : Detractor"
+                ]
+              },
+              "sourceMeasure": [
+                {
+                  "measure": {
+                    "measureName": "Team Persona Score",
+                    "measureType": "Derived Measure",
+                    "measureValue": 42,
+                    "helpText": "Help Text for FUTURE Team Persona Derived Measure Team Persona Score is missing"
+                  },
+                  "finding": {
+                    "findingValue": "Detractor"
+                  },
+                  "impact": {
+                    "impactText": [
+                      "Pillar: Team Persona Score : Detractor"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "FOUNDATION": {
+              "measure": {
+                "measureName": "Foundation Score",
+                "measureType": "Score",
+                "measureValue": 28.9,
+                "helpText": "Help Text for FOUNDATION FLOW Score Foundation Score is missing"
+              },
+              "finding": {
+                "findingValue": "Detractor"
+              },
+              "impact": {
+                "impactText": []
+              },
+              "sourceMeasure": [
+                {
+                  "measure": {
+                    "measureName": "Capability Score",
+                    "measureType": "Derived Measure",
+                    "measureValue": 28.9,
+                    "helpText": "Help Text for FOUNDATION Sales Capability Derived Measure Capability Score is missing"
+                  },
+                  "finding": {
+                    "findingValue": "Detractor"
+                  },
+                  "impact": {
+                    "impactText": [
+                      "Pillar: Capability Score : Detractor"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "Response Headers": {
+        "date": "Fri, 11 Feb 2022 12:10:19 GMT",
+        "server": "Apache/2.4.48 (IUS) OpenSSL/1.0.2k-fips",
+        "x-powered-by": "Express",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
+        "access-control-expose-headers": "Content-Length",
+        "access-control-allow-headers": "Accept, Authorization, Content-Type, X-Requested-With, Range",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "5056",
+        "etag": "W/\"13c0-S2YzHlInuoSYN6QtVbwi5mdF+20\"",
+        "via": "1.1 dev.k4coach.com (Apache/2.4.48)",
+        "keep-alive": "timeout=5, max=98",
+        "connection": "Keep-Alive"
+      },
+      "Response Status": 200
+    }
+  ]
+}

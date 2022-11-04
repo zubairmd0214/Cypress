@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tenements xmlns="http://schema.dmp.wa.gov.au/schema/public/emits/tenementExtract/1.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.dmp.wa.gov.au/schema/public/emits/tenementExtract/1.1/tenementExtractSchema.xsd">
+    <tenement>
+        <identifier>E 08/3883651</identifier>
+        <receivedDateTime>2021-06-03T16:07:35.000+08:00</receivedDateTime>
+        <tenementType>Exploration Licence</tenementType>
+        <district>ASHBURTON M.F.</district>
+        <lodgingOffice>ONLINE</lodgingOffice>
+        <currentArea>9 BL</currentArea>
+        <purposes></purposes>
+        <status>Pending</status>
+        <termGranted></termGranted>
+        <holders>
+            <holder>
+                <name>FMG PILBARA PTY LTD</name>
+                <correspondenceAddress>ACQUISITIONS AND TENEMENTS DEPARTMENT, ACQUISITIONS AND TENEMENTS DEPARTMENT, PO BOX 3379 HAY STREET, EAST PERTH, WA, 6004, xxxxxxxxxxxxxxxxxx@fmgl.com.au</correspondenceAddress>
+                <residentialAddress>ACQUISITIONS AND TENEMENTS DEPARTMENT, PO BOX 3379 HAY STREET, EAST PERTH, WA, 6004</residentialAddress>
+                <actualShares>100</actualShares>
+                <totalShares>100</totalShares>
+            </holder>
+        </holders>
+        <applicantsOnReceival>
+            <holder>
+                <name>FMG PILBARA PTY LTD</name>
+                <correspondenceAddress>ACQUISITIONS AND TENEMENTS DEPARTMENT, ACQUISITIONS AND TENEMENTS DEPARTMENT, PO BOX 3379 HAY STREET, EAST PERTH, WA, 6004, xxxxxxxxxxxxxxxxxx@fmgl.com.au</correspondenceAddress>
+                <residentialAddress>ACQUISITIONS AND TENEMENTS DEPARTMENT, PO BOX 3379 HAY STREET, EAST PERTH, WA, 6004</residentialAddress>
+                <actualShares>100</actualShares>
+                <totalShares>100</totalShares>
+            </holder>
+        </applicantsOnReceival>
+        <area>
+            <graticularArea>
+                <locality>Carnarvon Basin 2</locality>
+                <exclusions></exclusions>
+                <areaMeasurements>
+                    <areaMeasurement>
+                        <type>Applied For</type>
+                        <startDate>2021-06-03</startDate>
+                        <area>9 BL</area>
+                        <blocks>
+                            <block>
+<millionPlanNo>HAMERSLEY RANGE</millionPlanNo>
+<primaryBlockNo>1523</primaryBlockNo>
+<graticules>kpuz</graticules>
+<numberOfGraticules>4</numberOfGraticules>
+                            </block>
+                            <block>
+<millionPlanNo>HAMERSLEY RANGE</millionPlanNo>
+<primaryBlockNo>1595</primaryBlockNo>
+<graticules>eghjk</graticules>
+<numberOfGraticules>5</numberOfGraticules>
+                            </block>
+                        </blocks>
+                        <relinquishedBlocks/>
+                    </areaMeasurement>
+                </areaMeasurements>
+            </graticularArea>
+        </area>
+        <surveys/>
+        <shires>
+            <shire>
+                <shireNo>250</shireNo>
+                <startDate>2021-06-03</startDate>
+                <area>9.00000 BL</area>
+                <shireName>ASHBURTON SHIRE</shireName>
+            </shire>
+        </shires>
+        <relationships/>
+        <nativeTitle>
+            <nativeTitleLineItem>
+                <referralType>Tenement Application</referralType>
+                <currentStatus>Not Yet Referred to Native Title Unit</currentStatus>
+                <nativeTitleDetails>
+                    <proposedAreaToGrant>9 BL</proposedAreaToGrant>
+                    <centroid>
+                        <latitude>
+                            <centroidDetails>
+<degrees>21</degrees>
+<minutes>49</minutes>
+<seconds>50</seconds>
+<indicator>S</indicator>
+                            </centroidDetails>
+                        </latitude>
+                        <longitude>
+                            <centroidDetails>
+<degrees>114</degrees>
+<minutes>53</minutes>
+<seconds>50</seconds>
+<indicator>E</indicator>
+                            </centroidDetails>
+                        </longitude>
+                    </centroid>
+                    <locality>30.9km SW'ly of Onslow</locality>
+                    <purposes></purposes>
+                </nativeTitleDetails>
+                <determinationAreas>
+                    <determinationArea>
+                        <holder>THALANYJI(WCD2008/003)</holder>
+                        <nnttNumber>WC1999/045</nnttNumber>
+                        <federalCourtNumber>WAD6113/1998</federalCourtNumber>
+                        <whollyWithin>false</whollyWithin>
+                        <determinationNumber>WCD2008/003</determinationNumber>
+                        <folioNumber>116</folioNumber>
+                        <determinationDecision>EXIST</determinationDecision>
+                        <fullDetermination>No</fullDetermination>
+                    </determinationArea>
+                </determinationAreas>
+                <claims/>
+                <representativeAreaBodies>
+                    <representativeAreaBody>
+                        <code>12</code>
+                        <region>Pilbara</region>
+                        <representativeBody>Yamatji Marlpa Aboriginal Corporation</representativeBody>
+                    </representativeAreaBody>
+                </representativeAreaBodies>
+            </nativeTitleLineItem>
+        </nativeTitle>
+        <grant>
+            <termHistory/>
+        </grant>
+        <conditions/>
+        <endorsements/>
+        <general>
+            <applicationFee>$1,580.00</applicationFee>
+            <receiptNumber>14140145260</receiptNumber>
+            <objectionCloseDate>2021-07-08</objectionCloseDate>
+            <specialIndicators/>
+        </general>
+        <expenditures/>
+        <payments>
+            <rentPayments>
+                <rentPayment>
+                    <type>Rental</type>
+                    <year>2022</year>
+                    <receiptDate>2021-06-03</receiptDate>
+                    <paymentNumber>4058614829</paymentNumber>
+                    <receiptNo>14140145260</receiptNo>
+                    <amount>$1,269.00</amount>
+                    <rentArea>9 BL</rentArea>
+                    <effectiveDate>2021-06-03</effectiveDate>
+                    <amountDue>$1,269.00</amountDue>
+                    <discrepancy>$0.00</discrepancy>
+                </rentPayment>
+            </rentPayments>
+        </payments>
+        <registerEntries>
+            <registerEntry>
+                <dealingType>Objection</dealingType>
+                <dealingNumber>627447</dealingNumber>
+                <content>
+                    <lineItem>Lodged:08:30 05 July 2021</lineItem>
+                    <lineItem>Objectors:FORREST &amp;amp; FORREST PTY LTD</lineItem>
+                    <lineItem>Objection Type:Tenement Application</lineItem>
+                    <lineItem>RECORDED:08:30 05 July 2021</lineItem>
+                </content>
+            </registerEntry>
+            <registerEntry>
+                <dealingType>Objection</dealingType>
+                <dealingNumber>628289</dealingNumber>
+                <content>
+                    <lineItem>Lodged:13:32:34 16 July 2021</lineItem>
+                    <lineItem>Objectors:AGI OPERATIONS PTY LIMITED</lineItem>
+                    <lineItem>Objection Type:Tenement Application</lineItem>
+                    <lineItem>RECORDED:13:59 13 October 2021</lineItem>
+                </content>
+            </registerEntry>
+            <registerEntry>
+                <dealingType>Extension of Time</dealingType>
+                <dealingNumber>631273</dealingNumber>
+                <content>
+                    <lineItem>Lodged:13:19:41 26 August 2021</lineItem>
+                    <lineItem>Type:Objection</lineItem>
+                    <lineItem>RECORDED:13:19:41 26 August 2021</lineItem>
+                    <lineItem>APPROVED:13:59 13 October 2021</lineItem>
+                </content>
+            </registerEntry>
+        </registerEntries>
+        <holderChanges/>
+        <bonds>
+            <currentBondObligation>NONE RECORDED</currentBondObligation>
+            <totalBondAmount>NONE</totalBondAmount>
+        </bonds>
+        <rentSummary>
+            <currentRentDueOfficalDescription>N/A</currentRentDueOfficalDescription>
+            <currentStatus>N/A</currentStatus>
+            <currentYearEnd>2022-06-02</currentYearEnd>
+            <currentDue>$0.00</currentDue>
+            <nextYearRentDueOfficalDescription></nextYearRentDueOfficalDescription>
+        </rentSummary>
+        <expenditureSummary>
+            <previousYearOfficialDescription>N/A</previousYearOfficialDescription>
+            <previousStatus>N/A</previousStatus>
+            <previousDiscrepancy>$0.00</previousDiscrepancy>
+            <currentCommitmentOfficialDescription>N/A</currentCommitmentOfficialDescription>
+            <currentStatus>N/A</currentStatus>
+        </expenditureSummary>
+    </tenement>

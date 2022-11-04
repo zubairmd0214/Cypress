@@ -1,0 +1,154 @@
+{
+  "body": {
+    "result": {
+      "measure": {
+        "measureName": "Foundation Score",
+        "measureType": "Score",
+        "measureValue": 28.9,
+        "helpText": "Help Text for FOUNDATION FLOW Score Foundation Score is missing",
+        "measureQuestionText": "Label for FOUNDATION FLOW Score Foundation Score is missing"
+      },
+      "finding": {
+        "findingValue": "Detractor",
+        "finding": "Your Foundation Score of 28.9 is detractor"
+      },
+      "impact": {
+        "impactText": []
+      },
+      "sourceMeasure": [
+        {
+          "measure": {
+            "measureName": "Capability Score",
+            "measureType": "Derived Measure",
+            "measureValue": 28.9,
+            "helpText": "Help Text for FOUNDATION Sales Capability Derived Measure Capability Score is missing",
+            "measureQuestionText": "Label for FOUNDATION Sales Capability Derived Measure Capability Score is missing"
+          },
+          "finding": {
+            "findingValue": "Detractor",
+            "finding": "Your Capability Score of 28.9 is detractor"
+          },
+          "impact": {
+            "impactText": [
+              "Pillar: Capability Score : Detractor"
+            ]
+          },
+          "sourceMeasure": [
+            "61fb722130f582967912b410",
+            "61fb722230f582967912b411",
+            "61fb722330f582967912b412",
+            "61fb722530f582967912b413",
+            "61fb722730f582967912b414"
+          ]
+        }
+      ]
+    }
+  },
+  "headers": {
+    "date": "Thu, 24 Feb 2022 06:15:04 GMT",
+    "server": "Apache/2.4.48 (IUS) OpenSSL/1.0.2k-fips",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
+    "access-control-expose-headers": "Content-Length",
+    "access-control-allow-headers": "Accept, Authorization, Content-Type, X-Requested-With, Range",
+    "content-type": "text/plain; charset=utf-8",
+    "content-length": "1015",
+    "etag": "W/\"3f7-lWAGaASFHe6KSveOGHIsDLsB2DQ\"",
+    "via": "1.1 dev.k4coach.com (Apache/2.4.48)",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36",
+    "accept": "*/*",
+    "authorization": "Basic SzQtYXBpLWRldjpEYXRhVGVhbUAyMDIx",
+    "accept-encoding": "gzip, deflate",
+    "content-type": "application/json",
+    "content-length": 44
+  },
+  "requestBody": "{\"TPPID\":2,\"measureName\":\"Foundation Score\"}",
+  "duration": 354,
+  "allRequestResponses": [
+    {
+      "Request Body": "{\"TPPID\":2,\"measureName\":\"Foundation Score\"}",
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36",
+        "accept": "*/*",
+        "authorization": "Basic SzQtYXBpLWRldjpEYXRhVGVhbUAyMDIx",
+        "accept-encoding": "gzip, deflate",
+        "content-type": "application/json",
+        "content-length": 44
+      },
+      "Request URL": "https://dev.k4coach.com/backend/score_v2",
+      "Response Body": {
+        "result": {
+          "measure": {
+            "measureName": "Foundation Score",
+            "measureType": "Score",
+            "measureValue": 28.9,
+            "helpText": "Help Text for FOUNDATION FLOW Score Foundation Score is missing",
+            "measureQuestionText": "Label for FOUNDATION FLOW Score Foundation Score is missing"
+          },
+          "finding": {
+            "findingValue": "Detractor",
+            "finding": "Your Foundation Score of 28.9 is detractor"
+          },
+          "impact": {
+            "impactText": []
+          },
+          "sourceMeasure": [
+            {
+              "measure": {
+                "measureName": "Capability Score",
+                "measureType": "Derived Measure",
+                "measureValue": 28.9,
+                "helpText": "Help Text for FOUNDATION Sales Capability Derived Measure Capability Score is missing",
+                "measureQuestionText": "Label for FOUNDATION Sales Capability Derived Measure Capability Score is missing"
+              },
+              "finding": {
+                "findingValue": "Detractor",
+                "finding": "Your Capability Score of 28.9 is detractor"
+              },
+              "impact": {
+                "impactText": [
+                  "Pillar: Capability Score : Detractor"
+                ]
+              },
+              "sourceMeasure": [
+                "61fb722130f582967912b410",
+                "61fb722230f582967912b411",
+                "61fb722330f582967912b412",
+                "61fb722530f582967912b413",
+                "61fb722730f582967912b414"
+              ]
+            }
+          ]
+        }
+      },
+      "Response Headers": {
+        "date": "Thu, 24 Feb 2022 06:15:04 GMT",
+        "server": "Apache/2.4.48 (IUS) OpenSSL/1.0.2k-fips",
+        "x-powered-by": "Express",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
+        "access-control-expose-headers": "Content-Length",
+        "access-control-allow-headers": "Accept, Authorization, Content-Type, X-Requested-With, Range",
+        "content-type": "text/plain; charset=utf-8",
+        "content-length": "1015",
+        "etag": "W/\"3f7-lWAGaASFHe6KSveOGHIsDLsB2DQ\"",
+        "via": "1.1 dev.k4coach.com (Apache/2.4.48)",
+        "keep-alive": "timeout=5, max=98",
+        "connection": "Keep-Alive"
+      },
+      "Response Status": 200
+    }
+  ]
+}
