@@ -1,0 +1,52 @@
+{
+  "name": "k4coach",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug": "node --nolazy --debug-brk=5858 current_3.spec.js",
+    "cy:open": "cypress open",
+    "clean:reports": "if exist cypress\\reports rmdir /s/q cypress\\reports && mkdir cypress\\reports && mkdir cypress\\reports\\mochareports",
+    "pretest": "npm run clean:reports",
+    "scripts": "cypress run",
+    "combine-reports": "mochawesome-merge cypress/reports/mocha/*.json > cypress/reports/mochareports/report.json",
+    "generate-report": "marge cypress/reports/mochareports/report.json -f report -o cypress/reports/mochareports",
+    "posttest": "npm run combine-reports && npm run generate-report",
+    
+    
+
+    "start": "node_modules\\.bin\\cypress open",
+    "test-login":"npx cypress run -b chrome --spec 'C:\\Users\\user\\Documents\\K4CoachAutomation\\k4coachautomation\\cypress\\e2e\\test.cy.js' --reporter mocha-allure-reporter",
+    "test-login-allure":"npm run test-login",
+    "report:allure":"allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "finalgenerate-allurereport":"npm run test-login-allure && npm run report:allure"
+
+    
+
+  },
+  "devDependencies": {
+    "@cypress/snapshot": "^2.1.7",
+    "@shelex/cypress-allure-plugin": "^2.33.1",
+    "allure-commandline": "^2.18.1",
+    "cypress": "^10.8.0",
+    "cypress-downloadfile": "^1.2.1",
+    "cypress-email-results": "^1.8.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-if": "^1.9.1",
+    "cypress-localstorage-commands": "^1.6.1",
+    "cypress-multi-reporters": "^1.5.0",
+    "cypress-v10-preserve-cookie": "^1.2.1",
+    "cypress-xpath": "^1.6.2",
+    "mocha": "^9.2.2",
+    "mocha-allure-reporter": "^1.4.0",
+    "mocha-junit-reporter": "^2.0.2",
+    "mochawesome": "^6.3.1",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0",
+    "mysql": "^2.18.1"
+  },
+  "dependencies": {
+    "@types/bluebird": "^3.5.36",
+    "node.js": "0.0.1-security"
+  }
+}
